@@ -7,3 +7,4 @@
 + make项目时产生这样的错误g++: internal compiler error: Killed (program cc1plus)，百度后原来是内存不够，因此添加了内存，但是还是不行，因此教程中使用的4核make -j 4，改为make，之后的make过程中又出现了此问题，因此使用了网上开辟swap空间的方案，来源：`http://blog.csdn.net/fzh90/article/details/22893683`
 
 **一下午终于将Kaldi环境搭建好，不熟悉Linux的使用，使用的是虚拟环境，刚开始内存分配小了，make项目时出现错误，又改变分区，最后终于编译完项目**
+## 学习Kaldi的最简单的测试例子yesno
